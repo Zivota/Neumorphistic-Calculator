@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="mode"><div class="mode__ball"></div></div>
+    <div class="calculator">
+      <!-- score div -->
+      <div class="calculator__scoreHolder">
+        <div class="calculator__output"></div>
+        <div class="calculator__input"></div>
+      </div>
+      <!-- end of score div -->
+
+      <div class="calculator__row">
+        <button id="clear">CLEAR</button>
+        <button id="del">DEL</button>
+        <button class="operands">/</button>
+      </div>
+      <div class="calculator__row">
+        <button class="numbers">7</button>
+        <button class="numbers">8</button>
+        <button class="numbers">9</button>
+        <button class="operands">*</button>
+      </div>
+      <div class="calculator__row">
+        <button class="numbers">4</button>
+        <button class="numbers">5</button>
+        <button class="numbers">6</button>
+        <button class="operands">+</button>
+      </div>
+      <div class="calculator__row">
+        <button class="numbers">1</button>
+        <button class="numbers">2</button>
+        <button class="numbers">3</button>
+        <button class="operands">-</button>
+      </div>
+      <div class="calculator__row">
+        <button class="numbers">.</button>
+        <button class="numbers">0</button>
+        <button id="equal">EQUAL</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
